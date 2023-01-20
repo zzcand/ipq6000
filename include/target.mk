@@ -46,6 +46,7 @@ DEFAULT_PACKAGES.router:=\
 	dnsmasq-full \
 	firewall \
 	iptables \
+	ipv6helper \
 	ppp \
 	ppp-mod-pppoe
 # For easy usage
@@ -56,7 +57,6 @@ DEFAULT_PACKAGES.tweak:=\
 	kmod-nf-nathelper \
 	kmod-nf-nathelper-extra \
 	luci \
-	luci-app-cpufreq \
 	luci-app-filetransfer \
 	luci-app-turboacc \
 	luci-lib-fs \

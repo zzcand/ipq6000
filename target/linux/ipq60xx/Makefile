@@ -18,6 +18,6 @@ DEFAULT_PACKAGES += \
 	nss-firmware-ipq6018 kmod-qca-nss-dp kmod-qca-nss-ecm \
 	kmod-qca-ssdk qca-ssdk-shell kmod-qca-nss-drv \
 	kmod-qca-nss-drv-pppoe kmod-qca-nss-drv-bridge-mgr \
-	uboot-envtools
+	autocore-arm uboot-envtools luci-app-cpufreq
 
 $(eval $(call BuildTarget))
